@@ -50,7 +50,7 @@ class Timer(object):
       for char in current_time:
         number_data = self._numbers[char][idx]
         output += "{} ".format(number_data)  # adds spacing between numbers
-      output += "\n"
+      output += "  *\n"
     return output
 
 if __name__ == "__main__":
